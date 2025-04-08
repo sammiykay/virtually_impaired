@@ -63,10 +63,10 @@
                                 <div class="col-md-6 col-md-offset-3">
                                     <div class="oq-menu">
                                             <script type="text/javascript">
-                                                document.write('<span id="oq-subjectsList">List of tests for the subject <?php echo $subject?> are..<br><br>');
+                                                document.write('<span id="oq-subjectsList">List of tests for the subject <b><?php echo $subject?></b> are..<br><br>');
                                                 for(i=0;i<k;i++){
                                                     
-                                                    document.write("<span>"+words[i]+".</span><br>");
+                                                    document.write("<p style='background-color:#F8F9FA;border-radius: 3px; padding: 14px 12px;'>"+words[i]+"</p><br>");
                                                     
                                                 }
                                                 document.write('Choose one by saying the test name or say repeat to repeat the list.</span>');
